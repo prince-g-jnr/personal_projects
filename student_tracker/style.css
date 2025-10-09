@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* @media(max-width: 600px) {
+
+} */
 
 body{
     background-color: #fcf7f7;
@@ -21,10 +24,6 @@ body{
 .fa-solid.fa-graduation-cap{
     font-size: 35px;
 }
-
-/* .container{
-    border: solid green 5px;
-} */
 
 .student_form{
     margin: 20px;
@@ -46,7 +45,7 @@ input{
 
 .button{
     text-align: right;
-    margin-right: 9%;
+    margin-right: 9.5%;
 }
 .add_student{
     margin-top: 18px;
@@ -57,7 +56,6 @@ input{
     border-radius: 5px;
     cursor: pointer;
     align-items: end;
-    /* text-align: right; */
 }
 
 .add_student:hover{
@@ -74,10 +72,16 @@ input{
 
 .search{
     border: none;
+    outline: none;
 }
 
 .fa-solid.fa-magnifying-glass{
     padding-left: 10px;
+}
+
+.table_cont{
+    margin-left: 1.4%;
+    margin-right: 9.5%;
 }
 
 table{

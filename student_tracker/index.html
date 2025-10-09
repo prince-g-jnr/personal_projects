@@ -13,47 +13,46 @@
         <i class="fa-solid fa-graduation-cap"></i>
         <h1>Student Performance Tracker</h1>
     </header>
-    <div class="container">
         <form class="student_form">
             <div class="form">
                 <div>
                     <label for="name">Student Name</label>
-                    <input type="text" id="name" placeholder="Full Name">
+                    <input type="text" id="name" placeholder="Full Name" required>
                 </div>
 
                 <div>
                     <label for="name">Age</label>
-                    <input type="number" id="age" placeholder="Age">
+                    <input type="number" id="age" placeholder="Age" required>
                 </div>
 
                 <div>
                     <label for="name">Class</label>
-                    <input type="text" id="class" placeholder="Class">
+                    <input type="text" id="class" placeholder="Class" required>
                 </div>
 
                 <div>
                     <label for="name">Image URL</label>
-                    <input type="url" id="image" placeholder="Image URl">
+                    <input type="url" id="image" placeholder="Image URl" required>
                 </div>
 
                 <div>
                     <label for="name">English</label>
-                    <input type="number" id="score1" placeholder="Scores">
+                    <input type="number" id="score1" placeholder="Scores" required>
                 </div>
 
                 <div>
                     <label for="name">Mathmatics</label>
-                    <input type="number" id="score2" placeholder="Scores">
+                    <input type="number" id="score2" placeholder="Scores" required>
                 </div>
 
                 <div>
                     <label for="name">Physics</label>
-                    <input type="number" id="score3" placeholder="Scores">
+                    <input type="number" id="score3" placeholder="Scores" required>
                 </div>
             </div>
 
             <div class="button">
-                <button class="add_student">Add student</button>
+                <button class="add_student" id="button" onclick="addStudent()">Add Student</button>
             </div>
         </form>
 
@@ -62,19 +61,21 @@
             <input type="text" id="search" class="search" placeholder="Search....">
         </div>
 
-        <table id="student_table">
-            <thead>
-                <tr>
-                    <th>Profile Picture</th>
-                    <th>Name</th>
-                    <th>Class</th>
-                    <th>Average Score</th>
-                    <th>Performance</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
+       <div class="table_cont">
+            <table id="student_table">
+                <thead>
+                    <tr>
+                        <th>Profile Picture</th>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Average Score</th>
+                        <th>Performance</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody></tbody>
+            </table>
+       </div>
 </body>
 </html>
