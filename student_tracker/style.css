@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #fcf7f7;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+    color: #1c0080;
+}
+
+.fa-solid.fa-graduation-cap{
+    font-size: 35px;
+}
+
+/* .container{
+    border: solid green 5px;
+} */
+
+.student_form{
+    margin: 20px;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+input{
+    margin-left: 10px;
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #1c0080;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button{
+    text-align: right;
+    margin-right: 9%;
+}
+.add_student{
+    margin-top: 18px;
+    padding: 10px;
+    border: none;
+    background-color: #3610bd;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: end;
+    /* text-align: right; */
+}
+
+.add_student:hover{
+    background-color: #3700ff;
+}
+
+.search-cont{
+    background-color: #fff;
+    width: 60%;
+    margin-left: 30px;
+    border: 1px solid #1c0080;
+    border-radius: 5px;
+}
+
+.search{
+    border: none;
+}
+
+.fa-solid.fa-magnifying-glass{
+    padding-left: 10px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead{
+    /* margin-top: 20px; */
+    background-color: #4729b3;
+    color: #fff;
+    font-size: 20px;
+}
+
+th{
+    padding: 15px;
+}
