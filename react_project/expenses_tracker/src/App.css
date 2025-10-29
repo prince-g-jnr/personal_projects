@@ -1,0 +1,149 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f7fdf7;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+.expense-app {
+  background: #fff;
+  width: 600px;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.expense-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-form input,
+.expense-form select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.expense-form button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.expense-form button:hover {
+  background-color: #1b5e20;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 6px 14px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-buttons button.active {
+  background-color: #2e7d32;
+  color: white;
+  border-color: #2e7d32;
+}
+
+.stats {
+  background: rgb(164, 245, 167);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  text-align: center;
+}
+
+.stat-item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.stat-item h3 {
+  color: #2e7d32;
+  margin-bottom: 5px;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+  transition: background 0.3s;
+}
+
+.expense-item:hover {
+  transform: translateY(-2px);
+}
+
+.expense-info h4 {
+  margin: 0;
+}
+
+.expense-info p {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #a81616;
+ 
+}
+
+.delete-btn:hover {
+  
+  color: red;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}

@@ -15,7 +15,7 @@ function addStudents(){
     let studentProfile = (name, age, stu_class, image, score1, score2, score3, totalScore, averageScore)
     student.push(studentProfile)
 
-    localStorage.setItem("studentInfo",JSON.stringify(student))
+    localStorage.setItem("studentInfo", JSON.stringify(studentProfile))
 }
 
 function performanceCategory(averageScore) {
@@ -34,12 +34,12 @@ function performanceCategory(averageScore) {
     }
 }
 
-function showDisplays() {
-    document.getElementById("student_table").innerHTML = ""
-    for ( i = 0; i < student.length; i++) {
-        document.getElementById("student_table").innerHTML += `
-        <td>${name}
-        `
+// function showDisplays() {
+//     document.getElementById("student_table").innerHTML = ""
+//     for ( i = 0; i < student.length; i++) {
+//         document.getElementById("student_table").innerHTML += `
+//         <td>${name}
+//         `
 
-    }
-}
+//     }
+// }
