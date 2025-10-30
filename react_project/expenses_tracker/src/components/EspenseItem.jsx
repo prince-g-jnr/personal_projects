@@ -12,11 +12,11 @@ function ExpenseItem({ expense, onDelete, onEdit }) {
   }
 
   const categoryColors = {
-    Food: "#284cecff",
-    Transport: "#10da17ff",
-    Bills: "#da9d2dff",
-    Entertainment: "#30c5caff",
-    Others: "#ce3939ff",
+    Food: "#6c83e9ff",
+    Transport: "#6ed471ff",
+    Bills: "#cca65fff",
+    Entertainment: "#71d3d6ff",
+    Others: "#ca6565ff",
   };
 
   return (
