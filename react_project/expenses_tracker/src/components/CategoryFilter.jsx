@@ -2,14 +2,14 @@ const categories = ["All", "Food", "Transport", "Bills", "Entertainment", "Other
 
 function CategoryFilter({ current, onChange }) {
   return (
-    <div className="filter-buttons">
-      {categories.map((cat) => (
+    <div className="filter">
+      {categories.map((cart) => (
         <button
-          key={cat}
-          className={current === cat ? "active" : ""}
-          onClick={() => onChange(cat)}
+          key={cart}
+          className={current === cart ? "active" : ""}
+          onClick={() => onChange(cart)}
         >
-          {cat}
+          {cart}
         </button>
       ))}
     </div>

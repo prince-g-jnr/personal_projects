@@ -51,7 +51,7 @@ function App() {
   const filteredExpenses = filter === "All" ? expenses : expenses.filter((exp) => exp.category === filter);
 
   return (
-    <div className="expense-app">
+    <div className="container">
       <Header />
       <AddExpenseForm onAdd={addExpense} />
       <CategoryFilter current={filter} onChange={setFilter} />

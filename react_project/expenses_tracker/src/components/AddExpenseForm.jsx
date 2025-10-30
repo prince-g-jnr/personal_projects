@@ -7,7 +7,7 @@ function AddExpenseForm({ onAdd }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (description.trim() === "" || amount <= 0) return alert("Please enter valid details!");
+    if (description.trim() === "" || amount <= 0) return alert("Please enter a valid details!");
 
     onAdd({ description, amount: parseFloat(amount), category });
     setDescription("");
@@ -19,13 +19,13 @@ function AddExpenseForm({ onAdd }) {
     <form className="expense-form" onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Expense description..."
+        placeholder="Description..."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
       <input
         type="number"
-        placeholder="Amount (₦)"
+        placeholder="₦ Amount"
         value={amount}
         onChange={(e) => setAmount(e.target.value)}
       />

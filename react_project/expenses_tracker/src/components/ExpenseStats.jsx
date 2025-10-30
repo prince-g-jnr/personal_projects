@@ -10,15 +10,15 @@ function ExpenseStats({ expenses }) {
 
   return (
     <div className="stats">
-      <div className="stat-item">
+      <div className="stats-item">
         <h3>Total</h3>
         <p>₦{total.toLocaleString()}</p>
       </div>
-      <div className="stat-item">
+      <div className="stats-item">
         <h3>Expenses</h3>
         <p>{count}</p>
       </div>
-      <div className="stat-item">
+      <div className="stats-item">
         <h3>Highest</h3>
         <p>₦{highest.toLocaleString()}</p>
       </div>

@@ -1,9 +1,9 @@
 function Header() {
   const today = new Date().toLocaleDateString("en-NG", {
     weekday: "long",
-    year: "numeric",
-    month: "long",
     day: "numeric",
+    month: "long",
+    year: "numeric",
   });
 
   return (
