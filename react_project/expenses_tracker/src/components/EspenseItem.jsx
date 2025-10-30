@@ -12,11 +12,11 @@ function ExpenseItem({ expense, onDelete, onEdit }) {
   }
 
   const categoryColors = {
-    Food: "#bdf7bfff",
-    Transport: "#bdf7bfff",
-    Bills: "#bdf7bfff",
-    Entertainment: "#bdf7bfff",
-    Others: "#bdf7bfff",
+    Food: "#284cecff",
+    Transport: "#10da17ff",
+    Bills: "#da9d2dff",
+    Entertainment: "#30c5caff",
+    Others: "#ce3939ff",
   };
 
   return (
@@ -37,7 +37,7 @@ function ExpenseItem({ expense, onDelete, onEdit }) {
             </p>
           </div>
           <button className="delete-btn" onClick={() => onDelete(expense.id)}>
-            Delete
+            Trash
           </button>
         </>
       )}

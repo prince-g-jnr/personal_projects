@@ -14,23 +14,30 @@ function App() {
     {
       id: 1,
       description: "Lunch at Mama Put",
-      amount: 1500, category:
-      "Food",
-      date: "2025-10-22"
+      amount: 1500,
+      category: "Food",
+      date: "2025-10-15"
     },
     {
       id: 2,
-      description: "Bolt ride",
-      amount: 1200, category:
-      "Transport",
-      date: "2025-10-21"
+      description: "LAGRIDE",
+      amount: 3000,
+      category: "Transport",
+      date: "2025-10-30"
     },
     {
       id: 3,
-      description: "Netflix subscription",
-      amount: 4000,
+      description: "Electricity Bill",
+      amount: 50000,
+      category: "Bills",
+      date: "2025-10-30"
+    },
+    {
+      id: 4,
+      description: "Movies and Cinema",
+      amount: 9000,
       category: "Entertainment",
-      date: "2025-10-20"
+      date: "2025-10-30"
     },
   ]);
 
